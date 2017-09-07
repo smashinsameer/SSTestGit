@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Test HTML</title>
+</head>
+<body>
+	
+	<fieldset>
+		<legend>
+			Hello
+		</legend>
+		<label>First:</label><input type="text" id="myText"/>
+		<button onclick="onClickSubmit()">Submit</button>
+	</fieldset>
+	<script type="text/javascript">
+		 
+		function onClickSubmit(){
+			alert("Hello "+document.getElementById("myText").value);
+		}
+	</script>
+</body>
+</html>
